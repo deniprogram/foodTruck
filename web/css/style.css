@@ -1,0 +1,213 @@
+body{
+
+	margin:0px;
+	padding: 0px;
+	background:url("../img/back.jpg");
+	background-size:2000px;
+    background-attachment: fixed;
+}
+.centerContainer{
+	margin-top:20px;
+}
+.containerLogin{
+	background:rgba(000,000,000,0.5);
+	margin: auto;
+	float: none !important;
+	padding: 20px;
+	color:#fff;
+	border-radius: 6px;
+	margin-top: 20px;
+
+}
+.containerLogin label{
+    font-size: 14px !important;
+}
+.formUser{font-size: 12px; color: #333;}
+.containerLogin button{
+	background: #d22859;
+	color:#fff;
+	font-weight: bold;
+	font-size:16px; 
+	border:1px solid #fff;
+}
+
+.imagensDestaque{
+    background: #fff;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+
+.imgUser{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 20px;
+    border:2px solid #fff;
+}
+.containerCenterUser{
+    background: #fff;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding-top: 15px;
+}
+.tab-pane{
+    margin-top: 10px;
+}
+.tableProduto tr th{color: #000 !important;}
+.tableProduto tr {background: #fff !important;color: #000 !important;}
+.addCardapio{margin-top: 24px;}
+.containerLogin label{
+	font-size:19px;
+    font-weight: 100;
+}
+.containerLogin button{
+	height: 40px;
+    font-weight: 100;
+}
+.containerLogin button:hover{
+	color: #fff;
+	background: #5d152a;
+}
+.painelAdmin{
+	 
+	float: none;
+
+}
+.lateralLeft{
+ 
+	margin-bottom: 5px;
+}
+.tabs-left{
+	border:1px solid red;
+}
+.tabs-left li{
+	float: left;
+}
+
+.menuLAteralLeft ul{
+	margin:0px;
+	padding: 0px;
+}
+.menuLAteralLeft ul li{
+	list-style-type: none;
+	margin-top: 10px;
+	background: #d22859;
+	color: #fff;
+	padding: 10px;
+	font-style: italic;
+	border-radius: 10px;
+}
+.menuLAteralLeft ul li:hover{
+	background: #5d152a;
+}
+.lateralRight{
+	background:rgba(000,000,000,0.5);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.lateralRight   {
+	background:rgba(000,000,000,0.5);
+	border:none;
+}
+.formUser{
+    float: left;
+}
+.lateralRight button {
+	background: #d22859;
+	color: #fff;
+	border:none;
+}
+.lateralRight thead{
+	color:#fff;
+	background: none;
+	border-bottom: 0px solid red;
+}
+.lateralRight tbody tr:hover{
+	background:rgba(000,000,000,0.5);
+}
+.lateralRight tbody{
+	color:#fff;
+	background: none;
+	background:rgba(000,000,000,0.3);
+	border-radius: 5px !important;
+	font-size: 14px;
+}
+.painelAdmin button:hover{
+	background: #5d152a;
+	color: #fff;
+}
+.lateralRight h1{
+	text-align: center;
+	font-size: 25px;
+	color: #fff;
+}
+.datosPainel {
+	 font-size: 20px;
+	 font-style: italic;
+	 margin-bottom:10px; 
+	 font-family: Monospace,arial;
+}
+.foodFest img{
+	border-radius: 5px;
+}
+.logo{
+    float: none !important;
+}
+.loginLoad{
+    display: none;
+}
+.mensagenserro{
+    float: none;
+    margin-top: 5px;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+.mensagenserro .alert-warning{
+    color: #fff;
+    background:rgba(242,102,147,0.7) !important;
+    border: 1px solid #f26693;
+}
+.mensagenserro2{
+    float: none;
+    margin-top: 5px;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+.mensagenserro2 .alert-warning{
+    color: #fff;
+    background:rgba(242,102,147,0.7) !important;
+    border: 1px solid #f26693;
+}
+.mensagenserro3{
+    float: none;
+    margin-top: 5px;
+    position: absolute;
+    right: 0px;
+    display: none;
+}
+.mensagenserro3 .alert-warning{
+    color: #fff;
+    background:rgba(242,102,147,0.7) !important;
+    border: 1px solid #f26693;
+}
+.mensagesndePainelUser{
+    float: none;
+    margin-top: 5px;
+    position: fixed;
+    right: 0px;
+    z-index: 10;
+    display: none;
+}
+.mensagesndePainelUser .alert-warning{
+    color: #fff;
+    background:rgba(242,102,147,0.7) !important;
+    border: 1px solid #f26693;
+}
+.btnPainelUser{
+     margin-left:-14px;
+}
+.painelbutton{
+    margin-right: -150px;
+}

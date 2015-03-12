@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+
+    <title>BeeImoveiees</title>
+    <meta   charset="UTF-8">
+    <link   href='img/favicon.ico' rel='icon' type='image/x-icon'/>
+    <link   rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.min.css">
+    <meta   name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link   href="web/css/style.css" rel="stylesheet">
+    <link   href="lib/jquery-ui-1.11.2.custom/jquery-ui.css" rel="stylesheet">
+    <script src="lib/jquery-ui-1.11.2.custom/external/jquery/jquery.js"></script>
+    <script src="lib/jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="web/js/functionality.js"></script>
+</head>
+
+<body> <!-- Inicio de body -->
+
+    <div class="container"> <!-- Container Principal -->
+        <div class="row">   <!-- Row Principal -->
+
+                <div  class = "col-xs-12 col-sm-12 col-md-12 centerContainer">  <!--  headerTop -->
+                     <div class = "col-xs-12 col-sm-12 col-md-9 painelAdmin center-block">
+                          <div class = " col-xs-12 col-sm-12 col-md-3 lateralLeft">
+                                  <img src = "web/img/logo.png" width = "250"  class = "center-block img-responsive"  alt="Responsive image" />
+
+                                  <div class = "menuLAteralLeft">
+                                    <ul>
+
+                                     <a href = "statisticas.html">
+                                       <li>Home</li>
+                                     </a>
+
+                                     <a href = "painelAdmin.html">
+                                       <li>Usuário</li>
+                                     </a>
+
+                                     <a href = "localizacao.html">
+                                       <li>Localização</li>
+                                     </a>
+
+                                       <li>Financeiro</li>
+
+                                     <a href = "index.html">
+                                       <li>Sair</li>
+                                     </a>
+
+                                    </ul>
+
+                                  </div>
+                          </div>
+
+
+                          <div class = "lateralRight  col-xs-12 col-sm-12 col-md-9">
+
+                                <div class="col-lg-12">
+                                  <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Buscar">
+                                    <span class="input-group-btn">
+                                      <button class="btn btn-default" type="button">Buscar!</button>
+                                    </span>
+                                  </div>
+                                </div>
+
+                                 <div class="col-lg-12">
+                                  <table class="table ">
+
+                                    <thead>
+                                      <tr>
+                                        <th><font><font>Nome</font></font></th>
+                                        <th><font><font>Email</font></font></th>
+
+                                        <th><font><font>Última utilização</font></font></th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+                                     <tr>
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+                                     <tr>
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+                                      <tr>
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+
+                                      <tr>
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+
+                                      <tr>
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+                                      <tr>
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+                                      <tr  data-toggle="modal" data-target="#myModalEditar">
+                                        <th><font><font>Denisson</font></font></th>
+                                        <td><font><font>denisson@hotmail.com</font></font></td>
+
+                                        <td><font><font>12/23/2015 as 12:44</font></font></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </div>
+
+                               <div class="col-lg-12">
+                                <button class = "btn pull-right"  type="button"  data-toggle="modal" data-target="#myModalCadastrarUser">Cadastrar Novo Usuário</button>
+                               </div>
+                              <!-- Button trigger modal -->
+
+
+                              <!-- Modal -->
+                              <div class="modal fade" id="myModalEditar" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                              <h4 class="modal-title" id="myModalLabel">Editar</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                              <form>
+                                                  <div class = "formUser  col-xs-12 col-sm-12 col-md-6">
+                                                      <div class="form-group">
+                                                          <label for="exampleInputEmail1">Nome</label>
+                                                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nome do Food-Truck">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label for="exsasmpleInputPassword1">Email</label>
+                                                          <input type="email" class="form-control" id="exsasmpleInputPassword1" placeholder="Email">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label for="examplesInputPassword1">Senha</label>
+                                                          <input type="password" class="form-control" id="examplesInputPassword1" placeholder="Senha">
+                                                      </div>
+                                                  </div>
+
+                                                  <div class = "formUser  col-xs-12 col-sm-12 col-md-6">
+                                                      <div class="form-group">
+                                                          <label for="exampleInssputPasssword1">Endereço</label>
+                                                          <input type="" class="form-control" id="exampleInssputPasssword1" placeholder="Endereço">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInssputPasssword1">Tel:</label>
+                                                          <input type="" class="form-control" id="exampleInssputPasssword1" placeholder="Tel:">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label for="examplessInputPsassword1">Facebook</label>
+                                                          <input type="" class="form-control" id="examplessInputPsassword1" placeholder="Facebook">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInddputPasssword1">Site</label>
+                                                          <input type="" class="form-control" id="exampleInddputPasssword1" placeholder="Site">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInputFile">Logo</label>
+                                                          <input type="file" id="exampleInputFileLogo">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInputFile">Imagem em Destaque</label>
+                                                          <input type="file" id="exampleInputFile">
+                                                      </div>
+
+                                                  </div>
+                                          </div>
+                                          <div class="modal-footer">
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Excluir</button>
+                                              <button type="button" class="btn btn-default" data-dismiss="modal">Cencelar</button>
+                                              <button type="button" class="btn btn-primary">Alterar</button>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              <!-- Modal -->
+                              <div class="modal fade" id="myModalCadastrarUser" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                  <div class="modal-dialog">
+                                      <div class="modal-content">
+                                          <div class="modal-header">
+                                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                              <h4 class="modal-title" id="myModalLabel">Novo Usuário</h4>
+                                          </div>
+                                          <div class="modal-body">
+                                              <form>
+                                                  <div class = "formUser  col-xs-12 col-sm-12 col-md-6">
+                                                      <div class="form-group">
+                                                          <label for="exampleInputEmail1">Nome</label>
+                                                          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nome do Food-Truck">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label for="exsasmpleInputPassword1">Email</label>
+                                                          <input type="email" class="form-control" id="exsasmpleInputPassword1" placeholder="Email">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label for="examplesInputPassword1">Senha</label>
+                                                          <input type="password" class="form-control" id="examplesInputPassword1" placeholder="Senha">
+                                                      </div>
+                                                  </div>
+
+                                                  <div class = "formUser  col-xs-12 col-sm-12 col-md-6">
+                                                      <div class="form-group">
+                                                          <label for="exampleInssputPasssword1">Endereço</label>
+                                                          <input type="" class="form-control" id="exampleInssputPasssword1" placeholder="Endereço">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInssputPasssword1">Tel:</label>
+                                                          <input type="" class="form-control" id="exampleInssputPasssword1" placeholder="Tel:">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label for="examplessInputPsassword1">Facebook</label>
+                                                          <input type="" class="form-control" id="examplessInputPsassword1" placeholder="Facebook">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInddputPasssword1">Site</label>
+                                                          <input type="" class="form-control" id="exampleInddputPasssword1" placeholder="Site">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInputFile">Logo</label>
+                                                          <input type="file" id="exampleInputFileLogo">
+                                                      </div>
+
+                                                      <div class="form-group">
+                                                          <label for="exampleInputFile">Imagem em Destaque</label>
+                                                          <input type="file" id="exampleInputFile">
+                                                      </div>
+
+                                                  </div>
+
+
+
+                                                  <div class="modal-footer">
+                                                      <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                                                      <button type="button" class="btn btn-primary">Salvar</button>
+                                              </form>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+
+
+
+
+                          </div>
+                     </div>
+                </div>
+
+        </div> <!-- Fim de Row Principal -->
+    </div><!-- Fim de Container Principal -->
+
+ </body><!-- Fim de body -->
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

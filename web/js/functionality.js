@@ -1,0 +1,7 @@
+$(function() {
+
+  $("#exampleInputFileLogo").val("fg");
+
+    
+  });
+
